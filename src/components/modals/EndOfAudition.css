@@ -1,0 +1,28 @@
+
+.modal-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.562);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container > div {
+    min-width: 350px;
+    max-width: 900px;
+    width: 50%;
+    padding: 2rem;
+    text-align: center;
+}
+
+.modal-container h4{
+    margin: 0;
+    margin-bottom: 1em;
+    padding: .5em;
+    border-bottom: 1px solid rgba(65, 65, 65, 0.411);
+}

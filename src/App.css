@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+}
+
+.App {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+section {
+  min-width: 100vw;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App-logo {
+  width: 100px;
+  height: 100px;
+  animation: spinning 2.5s linear infinite;
+}
+
+/* STARTING FORM CSS */
+
+.card-action {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  min-width: 350px;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@keyframes spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 350px) {
+  .App {
+    min-width: 350px;
+  }
+}

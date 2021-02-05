@@ -1,0 +1,16 @@
+
+
+
+@media (max-width: 620px){
+    .nav-wrapper a{
+        font-size: 1.7em;
+    }
+    nav{
+        min-width: 100vw;
+    }
+    nav a{
+        width: 90%;
+        text-align: center;
+        min-width: 350px;
+    }
+}
